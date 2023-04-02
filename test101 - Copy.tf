@@ -1,4 +1,4 @@
-provider "aws" {
+provider "aws" {Sunday Learning Test
   region = "us-east-2"
 }
 resource "aws_instance" "example" {
