@@ -1,4 +1,5 @@
-provider "aws" {
+---Sunday Codes trst session
+provider "aws" { 
   region = "us-east-2"
 }
 resource "aws_instance" "example" {
