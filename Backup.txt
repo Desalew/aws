@@ -1,6 +1,7 @@
+
 Connect-AzAccount -TenantId 21399591-35bc-49ce-92f5-b56b092bffe4
 Set-AzContext -Name "Azure subscription 1"
 $storageKey = (Get-AzStorageAccountKey -ResourceGroupName "dessresource" -StorageAccountName "dessstorage")[0].Value
 $storageContext = New-AzStorageContext -StorageAccountName "dessstorage" -StorageAccountKey $storageKey
-Set-AzContext -Name "Sub2"
+Set-AzContext -Name "Sub2 edit"
 Backup-AzApiManagement -ResourceGroupName "testgroup002" -Name "test002apim" -StorageContext $storageContext -TargetContainerName "desscontainer" -TargetBlobName "test003_bkp.apimbackup"
