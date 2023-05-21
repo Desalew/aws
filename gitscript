@@ -1,0 +1,7 @@
+git pull ----pull the GIT to update the local clone
+git branch xxx
+git checkout xxx
+git add .
+git commit -m "xx"
+git push --set-upstream origin xxx
+copy the url to create a pull request for approval and merge
