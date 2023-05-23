@@ -7,7 +7,6 @@ resource "aws_instance" "example" {
   count = 2
 
   tags = {
-    Name = "example-instance update code for tf"
   }
 }
 someone made a change
