@@ -1,3 +1,4 @@
+Steps for git 
 git pull ----pull the GIT to update the local clone
 git branch xxx
 git checkout xxx
