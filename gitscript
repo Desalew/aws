@@ -5,3 +5,7 @@ git add .
 git commit -m "xx"
 git push --set-upstream origin xxx
 copy the url to create a pull request for approval and merge
+git branch -v to list out all the branch
+git switch master 
+git branch -d branch name to delete the branch
+
