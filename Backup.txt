@@ -1,4 +1,5 @@
 APIM backup code test
+new syntax
 Connect-AzAccount -TenantId 21399591-35bc-49ce-92f5-b56b092bffe4
 Set-AzContext -Name "Azure subscription 1"
 $storageKey = (Get-AzStorageAccountKey -ResourceGroupName "dessresource" -StorageAccountName "dessstorage")[0].Value
